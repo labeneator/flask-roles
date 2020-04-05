@@ -141,6 +141,7 @@ def init_roles(app):
             .one()
         )
         admin_user.groups.append(admin_group)
+        db.session.commit()
 
 
 def main():
