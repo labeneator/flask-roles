@@ -22,6 +22,10 @@ setup(
     packages=["flask_roles"],
     zip_safe=False,
     include_package_data=True,
+    install_requires=["Flask-Login>=0.5.0", "Flask-Principal>=0.4.0"],
+    extras_require={
+        "testing": ["pip-tools == 4.5.1", "mccabe", "pytest-cov", "pytest"]
+    },
     platforms="any",
     classifiers=[
         "Development Status :: 4 - Beta",

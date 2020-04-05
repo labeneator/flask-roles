@@ -7,8 +7,6 @@
 """
 
 
-from flask_login import current_user
-
 from .model import GroupMixin, RoleMixin, UserMixin
 
 __all__ = ["Roles", "RoleMixin", "UserMixin", "GroupMixin"]
@@ -46,5 +44,3 @@ class Roles(object):
 
         :param app: Flask object
         """
-        pass
-
