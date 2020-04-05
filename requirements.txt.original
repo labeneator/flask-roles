@@ -1,0 +1,8 @@
+flask
+flask_login
+pytest-cov
+pytest
+jinja2
+flask_sqlalchemy
+flask_principal
+

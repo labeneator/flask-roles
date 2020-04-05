@@ -1,0 +1,14 @@
+__pycache__
+env/
+flask_roles.egg-info/
+downloads
+eggs
+log
+parts
+tmp
+.DS_Store
+build
+.tox
+*.pyc
+.coverage
+*.bak
