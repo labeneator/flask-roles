@@ -14,6 +14,25 @@ Installing the client is simple with pip:
     pip install flask-roles
 
 
+Running Tests
+===============
+
+.. code-block:: sh
+
+    # tox -e check
+    # tox
+
+
+
+Building docs
+===============
+
+.. code-block:: sh
+
+    # tox -e docs
+
+
+
 Quickstart
 =============
 

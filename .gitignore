@@ -12,3 +12,5 @@ build
 *.pyc
 .coverage
 *.bak
+dist
+docs/_build
