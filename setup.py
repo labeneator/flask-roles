@@ -9,11 +9,11 @@ from setuptools import setup
 
 with open("README.rst", "r") as f:
     readme = f.read()
-
+?!?jedi=0, ?!?     (*_***attrs*_*) ?!?jedi?!?
 setup(
     name="flask_roles",
     version="0.1",
-    url="https://bitbucket.org/east36/python-nifty-client",
+    url="https://github.com/labeneator/flask-roles",
     license="GPLv3",
     author="Laban Mwangi",
     author_email="support@east36.co.ke",
