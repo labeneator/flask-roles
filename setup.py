@@ -12,7 +12,7 @@ with open("README.rst", "r") as f:
 
 setup(
     name="flask_roles",
-    version="0.2",
+    version="0.3",
     url="https://github.com/labeneator/flask-roles",
     license="GPLv3",
     author="Laban Mwangi",

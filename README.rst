@@ -24,8 +24,14 @@ Running Tests
 
 
 
-Building docs
+Docs
 ===============
+
+You may access the `docs`_ 
+
+.. _docs: https://flask-roles.readthedocs.io/en/latest/
+
+Or build them locally
 
 .. code-block:: sh
 
@@ -33,8 +39,8 @@ Building docs
 
 
 
-Quickstart
-=============
+Proof of Concept
+==================
 
 After installing the client, Use the mixins to enrich your sqlalchemy classes, initialise flask-login and flask-principal. 
 For each resource that needs role protection, define a roleneed and decorate the resource.
