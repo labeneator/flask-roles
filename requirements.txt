@@ -5,7 +5,6 @@ coverage==5.0.4
 Flask==1.1.1
 Flask-Login==0.5.0
 Flask-Principal==0.4.0
-flask-roles==0.1
 Flask-SQLAlchemy==2.4.1
 importlib-metadata==1.6.0
 itsdangerous==1.1.0
