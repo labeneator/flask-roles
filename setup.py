@@ -12,7 +12,7 @@ with open("README.rst", "r") as f:
 
 setup(
     name="flask_roles",
-    version="0.4",
+    version="0.5",
     url="https://github.com/labeneator/flask-roles",
     license="GPLv3",
     author="Laban Mwangi",
@@ -22,9 +22,15 @@ setup(
     packages=["flask_roles"],
     zip_safe=False,
     include_package_data=True,
-    install_requires=["Flask-Login>=0.5.0", "Flask-Principal>=0.4.0"],
     extras_require={
-        "testing": ["pip-tools == 4.5.1", "mccabe", "pytest-cov", "pytest"]
+        "testing": [
+            "pip-tools == 4.5.1",
+            "mccabe",
+            "pytest-cov",
+            "pytest",
+            "Flask-Login>=0.5.0",
+            "Flask-Principal>=0.4.0",
+        ]
     },
     platforms="any",
     classifiers=[
